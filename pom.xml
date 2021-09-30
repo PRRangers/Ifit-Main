@@ -11,8 +11,14 @@
     <groupId>com.ifit</groupId>
     <artifactId>ifit-main</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>ifit-main</name>
     <description>IFit backend index project</description>
+
+    <modules>
+        <module>webapp</module>
+    </modules>
+
     <properties>
         <java.version>1.8</java.version>
     </properties>
